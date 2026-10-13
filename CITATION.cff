@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: >-
+  rare-target-prioritization: a reproducible pipeline for therapeutic target
+  prioritisation in rare monogenic disease, demonstrated on CIPA
+message: >-
+  If you refer to this work, please cite it as below, and cite the underlying
+  public resources listed in DATA_SOURCES.md.
+type: software
+authors:
+  - given-names: Simone Edoardo
+    family-names: Candelo
+    orcid: "https://orcid.org/0009-0000-5741-574X"
+    affiliation: University of Pisa
+abstract: >-
+  A pipeline that proposes and ranks candidate therapeutic targets for a rare
+  monogenic disease from public resources only, keeping human curation as a
+  declared downstream step and reporting what it cannot know. Demonstrated on
+  congenital insensitivity to pain with anhidrosis (CIPA, NTRK1). No
+  experimental validation.
+keywords:
+  - target discovery
+  - rare disease
+  - CIPA
+  - NTRK1
+  - Open Targets
+  - reproducible research
+license: MIT
+date-released: "2026-10-13"

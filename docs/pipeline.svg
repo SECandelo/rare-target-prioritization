@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 584" width="760" height="584" role="img" aria-label="Human judgement enters at one declared step, downstream of everything automatic" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5">
+  <defs>
+    <marker id="pipe-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#8a9299"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="584" fill="#ffffff"/>
+
+  <text x="24" y="30" font-size="15" font-weight="600" fill="#11181c">Human judgement enters at one declared step, downstream of everything automatic</text>
+  <text x="24" y="50" font-size="11.5" fill="#5a6268">Six steps from a disease name to a scored shortlist · CIPA, Open Targets 26.09</text>
+
+  <g fill="none" stroke="#8a9299" stroke-width="1.25">
+    <path d="M135 146V162H240V178" marker-end="url(#pipe-arrow)"/>
+    <path d="M380 146V178" marker-end="url(#pipe-arrow)"/>
+    <path d="M625 146V162H520V178" marker-end="url(#pipe-arrow)"/>
+    <path d="M380 236V268" marker-end="url(#pipe-arrow)"/>
+    <path d="M380 326V346H194V366" marker-end="url(#pipe-arrow)"/>
+    <path d="M380 326V346H566V366" marker-end="url(#pipe-arrow)"/>
+    <path d="M194 440V456H260V472" marker-end="url(#pipe-arrow)"/>
+    <path d="M566 440V456H500V472" marker-end="url(#pipe-arrow)"/>
+  </g>
+
+  <g>
+    <rect x="24" y="70" width="222" height="76" rx="8" fill="none" stroke="#8a9299" stroke-width="1.25"/>
+    <text x="40" y="94" font-size="13" font-weight="600" fill="#11181c">A · disease-associated</text>
+    <text x="40" y="110" fill="#11181c">Open Targets associations</text>
+    <text x="40" y="126" fill="#5a6268">374 targets, one strong</text>
+  </g>
+  <g>
+    <rect x="269" y="70" width="222" height="76" rx="8" fill="none" stroke="#8a9299" stroke-width="1.25"/>
+    <text x="285" y="94" font-size="13" font-weight="600" fill="#11181c">B · interactors of TrkA</text>
+    <text x="285" y="110" fill="#11181c">IntAct, SIGNOR, Reactome,</text>
+    <text x="285" y="126" fill="#5a6268">STRING ≥ 0.9 · 80 targets</text>
+  </g>
+  <g>
+    <rect x="514" y="70" width="222" height="76" rx="8" fill="none" stroke="#8a9299" stroke-width="1.25"/>
+    <text x="530" y="94" font-size="13" font-weight="600" fill="#11181c">C · sister-disease genes</text>
+    <text x="530" y="110" fill="#11181c">Shared parent ontology</text>
+    <text x="530" y="126" fill="#5a6268">5 targets</text>
+  </g>
+
+  <g>
+    <rect x="140" y="178" width="480" height="58" rx="8" fill="none" stroke="#8a9299" stroke-width="1.25"/>
+    <text x="156" y="202" font-size="13" font-weight="600" fill="#11181c">Steps 1–2 · Candidate universe from three declared sources</text>
+    <text x="156" y="218" fill="#5a6268">Disease resolved by name search, not a hard-coded identifier · 88 genes</text>
+  </g>
+
+  <g>
+    <rect x="140" y="268" width="480" height="58" rx="8" fill="#2a78d6" fill-opacity="0.12" stroke="#2a78d6" stroke-width="2"/>
+    <text x="156" y="292" font-size="13" font-weight="600" fill="#11181c">Step 3 · Evidence tiers, then declared curation</text>
+    <text x="156" y="308" fill="#11181c">One written reason per manual removal, applied downstream · 88 → 78</text>
+  </g>
+
+  <g>
+    <rect x="24" y="366" width="340" height="74" rx="8" fill="none" stroke="#8a9299" stroke-width="1.25"/>
+    <text x="40" y="390" font-size="13" font-weight="600" fill="#11181c">Step 4 · Strategy against genotype</text>
+    <text x="40" y="406" fill="#11181c">ClinVar, UniProt, AlphaMissense</text>
+    <text x="40" y="422" fill="#5a6268">197 P/LP variants · 77% null alleles</text>
+  </g>
+  <g>
+    <rect x="396" y="366" width="340" height="74" rx="8" fill="none" stroke="#8a9299" stroke-width="1.25"/>
+    <text x="412" y="390" font-size="13" font-weight="600" fill="#11181c">Step 5 · Safety, specificity, function</text>
+    <text x="412" y="406" fill="#11181c">DepMap, GTEx, Tabula Sapiens,</text>
+    <text x="412" y="422" fill="#5a6268">mouse knockouts · 68 of 78 genes</text>
+  </g>
+
+  <g>
+    <rect x="140" y="472" width="480" height="74" rx="8" fill="none" stroke="#8a9299" stroke-width="1.25"/>
+    <text x="156" y="496" font-size="13" font-weight="600" fill="#11181c">Step 6 · Transparent scoring and evidence cards</text>
+    <text x="156" y="512" fill="#11181c">Four axes scored separately and never averaged into one another</text>
+    <text x="156" y="528" fill="#5a6268">Being understudied is reported as a marker, not as points</text>
+  </g>
+
+  <text x="24" y="566" font-size="11.5" fill="#5a6268">Thresholds, keyword lists and manual removals are written to one manifest per step.</text>
+</svg>

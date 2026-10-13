@@ -1,0 +1,6 @@
+# Versions pinned to what Google Colab provided for the recorded run (October 2026).
+# The pipeline uses only mainstream APIs of these libraries; nearby versions work.
+pandas>=2.0
+numpy>=1.24
+requests>=2.28
+matplotlib>=3.7
